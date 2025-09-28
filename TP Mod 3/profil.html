@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head> <!--tag head berisi informasi metadata-->
+        <meta chartset="UTF-8">
+        <title>Profil Pribadi</title> <!-- tag title berfungsi untuk menampilkan judul di tab browser -->
+    </head>
+    <body> <!-- tag body berisi konten utama dari website -->
+        <div> <!-- tag div digunakan untuk mengelompokkan bagian tertentu dari halaman -->
+            <h1>Profil Pribadi</h1> <!-- tag h1 digunakan sebagai judul utama dari website -->
+        </div>
+        <!-- tag Table digunakan untuk menyusun data dalam bentuk tabel, tag ini digunakan agar tampilan foto dan video bisa sejajar -->
+        <table border="0">
+            <tr> <!-- tag tr digunakan untuk mendefinisikan satu baris dalam tabel -->
+                <th>Foto Profil</th> <!-- tag th digunakan sebagai judul kolom -->
+                <th>Video Perkenalan</th>
+            </tr>
+            <tr>
+                <td> <!-- tag td digunakan untuk isi dari tabel -->
+                    <img src="img_rma.jpeg" width="200px" alt="Foto Profil"> <!-- tag img digunakan untuk menampilkan gambar -->
+                </td>
+                <td>
+                    <!-- tag video digunakan untuk menampilkan video-->
+                    <video controls>
+                        <source src="" type="video/mp4">
+                    </video>
+                </td>
+            </tr>
+        </table>
+    
+        <h2>Tentang Saya</h2> <!-- tag h2 digunakan sebagai subjudul dari website -->
+        <p>Halo! Saya Rafly, merupakan mahasiswa Telkom University prodi S1 Teknologi Informasi. Saat ini, saya sedang belajar pemrograman website.</p> <!-- tag p digunakan untuk membuat teks paragraf pada website -->
+        
+        <h2>Keterampilan</h2>
+        <table border="0">
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td> <!-- tag td merupakan isi dari tabel-->
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Menengah</td>
+            </tr>
+        </table>
+
+        <h2>Hubungi Saya</h2>
+        <form action="#" method="post"> <!-- form digunakan untuk input data dari user -->
+            Nama: <input type="text" name="nama"><br> <!-- input merupakan field untuk memasukkan teks -->
+            Email: <input type="email" name="email"><br>
+            Pesan: <br>
+            <textarea type="submit" rows="5" cols="30"></textarea><br> <!-- textarea digunakan untuk input teks yang lebih panjang -->
+            <button type="submit">Kirim Pesan</button> <!-- button sebagai tombol untuk submit form -->
+        </form>
+
+        <h2>Media Sosial</h2>
+        <!-- a (anchor) digunakan untuk membuat tautan ke halaman web lain -->
+        <a href="https://www.instagram.com/raflymlnna?igsh=MThobmJoZjlwa3I4cA==" target="_blank" rel="noopener noreferrer">Instagram</a> |
+        <a href="https://github.com/raflymlna" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </body>
+</html>
